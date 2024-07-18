@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON server</title>
+    <link rel="stylesheet" href="database/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container pt-3">
+        <h1 class="text-center">employees info</h1>
+
+        
+
+        <div class="row bg-info">
+            <div class="col-md-6 text-center ">
+                employee
+            </div>
+            
+            <div class="col-md-6 text-center">
+                transaction
+            </div>
+            <input oninput="searchName()" type="search" id="search" placeholder="search by name">
+            
+        </div>
+
+        <div class="row pt-5 border border-2 text-center" id="information">
+            
+        </div>
+
+
+       
+    </div>
+
+    <div>
+        <canvas id="myChart"></canvas>
+      </div>
+
+
+    <script src="database/js/bootstrap.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="database/chart.js"></script>
+    <script src="database/main.js"></script>
+
+</body>
+</html>
